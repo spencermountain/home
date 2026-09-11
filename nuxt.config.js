@@ -3,9 +3,17 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  ssr: false,
   devtools: {
     enabled: false
+  },
+  ssr: false,
+  nitro: {
+    preset: 'static',
+    prerender: {
+      crawlLinks: true, // Nuxt also seeds every static page route when ssr is false
+      autoSubfolderIndex: true, // /example -> .output/public/example/index.html
+      failOnError: true
+    }
   },
   css: ['~/assets/main.css'],
   vite: { plugins: [tailwindcss()] },
