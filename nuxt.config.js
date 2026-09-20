@@ -3,10 +3,13 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
+
   devtools: {
     enabled: false
   },
+
   ssr: false,
+
   nitro: {
     preset: 'static',
     prerender: {
@@ -15,9 +18,13 @@ export default defineNuxtConfig({
       failOnError: true
     }
   },
+
   css: ['~/assets/main.css'],
   vite: { plugins: [tailwindcss()] },
-  pages: { pattern: '**/index.vue' }, // only index.vue files become routes
+
+  // only index.vue files become routes
+  pages: { pattern: '**/index.vue' },
+
   app: {
     head: {
       htmlAttrs: { lang: 'en' },
@@ -33,5 +40,7 @@ export default defineNuxtConfig({
       ],
       link: [{ rel: 'icon', href: '/favicon.ico' }]
     }
-  }
+  },
+
+  modules: ['@nuxt/eslint']
 })

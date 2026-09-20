@@ -13,7 +13,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "deploy": "rclone sync ./.output/public r2:home --checksum --transfers 32 --fast-list --progress",
-    "deploy:dry": "rclone sync ./.output/public r2:home --checksum --transfers 32 --fast-list --dry-run --progress"
+    "deploy:dry": "rclone sync ./.output/public r2:home --checksum --transfers 32 --fast-list --dry-run --progress",
+    "lint": "eslint ."
   },
   "prettier": {
     "trailingComma": "none",
@@ -23,6 +24,7 @@
     "printWidth": 120
   },
   "dependencies": {
+    "@nuxt/eslint": "1.17.0",
     "nuxt": "^3.17.0",
     "spacetime": "^7.13.0",
     "vue": "^3.5.0",
