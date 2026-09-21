@@ -67,7 +67,7 @@ const hovered = ref(null)
       <template v-if="hovered">
         <div class="h-3 w-3 rounded-full" :style="{ background: hovered.bg }"></div>
         <!-- <div class="font-bold text-[#4d4d4d]">{{ hovered.label }}</div> -->
-        <div class="font-bold text-[#4d4d4d]" v-if="hovered.description">{{ hovered.description }}</div>
+        <div v-if="hovered.description" class="font-bold text-[#4d4d4d]">{{ hovered.description }}</div>
         <div v-if="hovered.detail" class="italic text-lightgrey">{{ hovered.detail }}</div>
       </template>
     </div>

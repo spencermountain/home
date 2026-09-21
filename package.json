@@ -1,8 +1,6 @@
 {
   "name": "spencermountain-portfolio",
-  "description": "",
-  "version": "0.0.1",
-  "license": "CC-BY-4.0",
+  "description": "personal website",
   "private": true,
   "type": "module",
   "author": "Spencer Kelly (spencermountain)",
