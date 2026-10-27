@@ -7,8 +7,8 @@ import Year from '../lib/Year.vue'
     <Year id="2023">
       <div class="col ml-8">
         <div class="row-middle">
-          <div class="">
-            <Img src="/2023/2023-04-11.jpg" width="250px" />
+          <div class="flex-grow max-w-52">
+            <!-- <Img src="/2023/2023-04-11.jpg" width="250px" /> -->
           </div>
           <div class="col-right w-80 text-right items-end!">
             <Img src="/2023/dam-break.jpg" width="200px" />
@@ -16,15 +16,13 @@ import Year from '../lib/Year.vue'
           </div>
         </div>
 
-        <div class="row mt-8">
+        <div class="row-left mt-8">
           <Img
             src="/2023/fluent-2023.jpg"
             width="400px"
             caption="Fluent.co went bankrupt<br/> <i>even though it was really fun and good</i>"
           />
-        </div>
-        <div class="row mt-8 w-full">
-          <div class="col justify-end! w-full max-w-[600px]">
+          <div class="col justify-end! w-[600px]">
             <Img src="/2023/job-hunt.jpg" width="450px" class="self-end!" />
             <div class="row-right">
               <Img src="/2023/globe.jpg" width="120px" class="self-end" />
