@@ -20,7 +20,7 @@ import Year from '../lib/Year.vue'
           <Img
             src="/2023/fluent-2023.jpg"
             width="400px"
-            caption="Fluent.co went bankrupt<br/> <i>even though it was really good.</i>"
+            caption="Fluent.co went bankrupt<br/> <i>even though it was really fun and good</i>"
           />
         </div>
         <div class="row mt-8 w-full">
@@ -33,9 +33,20 @@ import Year from '../lib/Year.vue'
           </div>
         </div>
 
-        <div class="row mt-18">
-          <Img src="/2023/deeplearning-1.jpg" width="250px" caption="is this deep learning?" />
-          <Img src="/2023/deeplearning-2.jpg" width="400px" />
+        <div class="row-middle mt-18">
+          <Img src="/2023/deeplearning-1.jpg" width="225px" />
+          <Img src="/2023/deeplearning-2.jpg" width="350px" caption="<i>deep-learning.jpg</i>" />
+        </div>
+
+        <div class="row mt-20">
+          <div class="col-right w-40">
+            <Img src="/2023/clouds.jpg" />
+            <Img src="/2023/plants.jpg" />
+          </div>
+          <div class="col flex-1">
+            <Img src="/2023/sunglasses.jpg" width="400px" />
+            <Img src="/2023/hackernews-crop.jpg" caption="vowed to never make hackernews again" />
+          </div>
         </div>
       </div>
     </Year>
