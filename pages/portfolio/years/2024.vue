@@ -33,8 +33,8 @@ import Year from '../lib/Year.vue'
         </div>
         <div class="row-middle mt-8 w-full">
           <div class="col w-[500px]">
-            <Video src="/2024/table-scroll.mp4" width="450px" autoplay />
-            <Video src="/2024/polygon-1.mp4" width="450px" autoplay />
+            <Video src="/2024/table-scroll.mp4" width="450px" autoplay :loop="true" />
+            <Video src="/2024/polygon-1.mp4" width="450px" autoplay :loop="true" />
           </div>
           <Img src="/2024/gov-2.jpg" width="300px" />
           <Img src="/2024/move-1.jpg" width="500px" class="mt-8" />

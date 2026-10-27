@@ -8,7 +8,8 @@ const props = defineProps({
   link: String,
   width: { type: String, default: '100%' },
   shadow: { type: String, default: 'md' },
-  autoplay: { type: Boolean, default: false }
+  autoplay: { type: Boolean, default: false },
+  loop: { type: Boolean, default: true }
 })
 let src = props.src
 if (props.base && props.src) {
@@ -24,6 +25,7 @@ if (props.base && props.src) {
         :alt="caption"
         :style="{ width }"
         :autoplay="props.autoplay"
+        :loop="props.loop"
         class="m-5 mb-0 rounded-sm"
         :class="shadow === 'none' ? '' : 'shadow-card'"
       />
