@@ -13,16 +13,16 @@ const grown = useScrollTrigger(bar)
 <template>
   <Stage class="mt-46">
     <GoldGrid class="ml-6">
-      <Cell wide><img src="/img/more/exhibition.jpg" class="rounded-sm shadow-card" /></Cell>
+      <Cell wide><Img src="/more/exhibition.jpg" class="rounded-sm" /></Cell>
       <Cell />
-      <img src="/img/more/dufferin.jpg" class="w-30 rounded-sm shadow-card" />
+      <Img src="/more/dufferin.jpg" class="w-30 rounded-sm" />
       <Cell wide class="col-bottom text-brown">
         i write software
         <div class="h-[0.444rem] w-full bg-blue" />
       </Cell>
       <Cell />
       <Cell />
-      <img src="/img/more/statue.jpg" class="w-30 rounded-sm shadow-card" />
+      <Img src="/more/statue.jpg" class="w-30 rounded-sm" />
       <Cell class="col-bottom text-2xl text-brown">
         <div class="ml-4 self-start">I'm {{ age }}.</div>
       </Cell>
@@ -40,7 +40,7 @@ const grown = useScrollTrigger(bar)
       else.
     </div>
     <div class="mt-4 ml-9 max-w-[57.6rem] text-left">
-      <img class="rounded-sm shadow-card" src="/img/more/stadium.jpg" />
+      <Img class="rounded-sm" src="/more/stadium.jpg" />
     </div>
   </Stage>
 </template>

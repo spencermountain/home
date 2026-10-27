@@ -17,14 +17,14 @@ const shrunk = useScrollTrigger(bar)
           software<br />
           <a href="http://blog.spencermounta.in/2020/should-we-stop/index.html">is in decline</a>.
         </div>
-        <img class="ml-4 rounded-sm shadow-card" src="/img/full/yeast.jpg" />
+        <Img class="ml-4" src="/full/yeast.jpg" />
       </div>
     </Stage>
     <!-- ontario farms -->
     <Stage class="my-20">
       <div class="row flex-nowrap">
         <div class="relative max-w-[800px] grow">
-          <img class="rounded-sm shadow-card" src="/img/full/fields.jpg" />
+          <Img class="" src="/full/fields.jpg" />
           <div class="absolute bottom-1/4 h-4 w-full bg-pink opacity-80" />
         </div>
         <div class="ml-6 grid w-1/4 grid-cols-2 self-stretch">

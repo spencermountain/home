@@ -1,7 +1,6 @@
 <script setup>
 import Main from '../lib/Main.vue'
 import Year from '../lib/Year.vue'
-import Img from '../lib/Img.vue'
 import Hr from '../lib/Hr.vue'
 </script>
 
@@ -10,7 +9,7 @@ import Hr from '../lib/Hr.vue'
     <Year id="2010">
       <div>English Text simplification</div>
       <Img
-        src="/img/2010/simple.jpg"
+        src="/2010/simple.jpg"
         width="450px"
         href="https://docs.google.com/spreadsheets/d/1clPt1ivBcf5Kdi02NzoE_KqEMXNylj6q-88qXuvw1lY/edit?usp=sharing"
       />

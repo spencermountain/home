@@ -1,7 +1,7 @@
 <script setup>
 import Main from '../lib/Main.vue'
 import Year from '../lib/Year.vue'
-import Img from '../lib/Img.vue'
+
 import Hr from '../lib/Hr.vue'
 </script>
 
@@ -11,17 +11,17 @@ import Hr from '../lib/Hr.vue'
       <div class="row">
         <div class="w-1/2">
           <Img
-            src="/img/2018/geneology.png"
+            src="/2018/geneology.png"
             width="450px"
             caption="did my genealogy. it was hard."
             href="http://blog.spencermounta.in/2019/my-family-tree/index.html"
           />
-          <Img src="/img/2018/cheese-maker.png" width="250px" />
+          <Img src="/2018/cheese-maker.png" width="250px" />
         </div>
         <div class="w-1/2">
-          <Img src="/img/2018/mars.jpg" width="350px" />
+          <Img src="/2018/mars.jpg" width="350px" />
           <Img
-            src="/img/2018/begin-cli.gif"
+            src="/2018/begin-cli.gif"
             width="350px"
             href="https://observablehq.com/@spencermountain/compromise-dates"
           />
@@ -33,8 +33,8 @@ import Hr from '../lib/Hr.vue'
       </div>
       <div class="row mt-16">
         <div class="w-1/2">
-          <Img src="/img/2018/spacetime.jpg" width="250px" href="https://github.com/spencermountain/spacetime" />
-          <Img src="/img/2018/spacetime.gif" width="250px" href="https://github.com/spencermountain/spacetime" />
+          <Img src="/2018/spacetime.jpg" width="250px" href="https://github.com/spencermountain/spacetime" />
+          <Img src="/2018/spacetime.gif" width="250px" href="https://github.com/spencermountain/spacetime" />
         </div>
         <div class="w-1/2">
           <div>a timezone library</div>
@@ -42,7 +42,7 @@ import Hr from '../lib/Hr.vue'
         </div>
       </div>
       <div class="my-1 ml-16">
-        <Img src="/img/2019/colors.png" width="280px" />
+        <Img src="/2019/colors.png" width="280px" />
       </div>
       <Hr />
     </Year>

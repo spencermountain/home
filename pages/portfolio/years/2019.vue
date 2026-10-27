@@ -1,7 +1,6 @@
 <script setup>
 import Main from '../lib/Main.vue'
 import Year from '../lib/Year.vue'
-import Img from '../lib/Img.vue'
 </script>
 
 <template>
@@ -9,13 +8,13 @@ import Img from '../lib/Img.vue'
     <Year id="2019">
       <div class="row">
         <div class="w-1/2">
-          <Img src="/img/2019/v12.png" width="380px" href="https://observablehq.com/@spencermountain/compromise-values" />
+          <Img src="/2019/v12.png" width="380px" href="https://observablehq.com/@spencermountain/compromise-values" />
         </div>
         <div class="w-1/2">
-          <Img src="/img/2019/2019.jpg" width="150px" />
-          <Img src="/img/2019/dumps.png" width="150px" href="http://thensome.how/2019/ontario-landfills/" />
+          <Img src="/2019/2019.jpg" width="150px" />
+          <Img src="/2019/dumps.png" width="150px" href="http://thensome.how/2019/ontario-landfills/" />
           <Img
-            src="/img/2019/globe.jpg"
+            src="/2019/globe.jpg"
             width="150px"
             href="http://blog.spencermounta.in/2019/understanding-the-planet/index.html"
           />
@@ -26,8 +25,8 @@ import Img from '../lib/Img.vue'
         <div class="my-1 ml-8 text-[0.9rem]">for <a href="http://mbihealthgroup.com/">MBI health</a>.</div>
       </div>
       <div class="row mt-16">
-        <Img src="/img/2019/twitter.png" width="380px" />
-        <Img src="/img/2019/2019-2.jpg" width="120px" />
+        <Img src="/2019/twitter.png" width="380px" />
+        <Img src="/2019/2019-2.jpg" width="120px" />
       </div>
       <div class="row mt-12 mb-1 ml-8 justify-normal">
         <div>
@@ -36,7 +35,7 @@ import Img from '../lib/Img.vue'
             <div class="my-1 ml-8 text-[0.9rem]">for <a href="https://venngage.com/">venngage.com</a></div>
           </div>
         </div>
-        <Img src="/img/2019/venngage.jpg" width="60px" />
+        <Img src="/2019/venngage.jpg" width="60px" />
       </div>
     </Year>
   </Main>

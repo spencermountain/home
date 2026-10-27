@@ -1,25 +1,19 @@
 {
   "name": "home",
-  "description": "personal website",
   "private": true,
-  "type": "module",
+  "description": "personal website",
   "repository": "github:spencermountain/home",
   "author": "Spencer Kelly <spencermountain@gmail.com> (https://spencermountain.dev)",
+  "type": "module",
   "scripts": {
-    "dev": "nuxt dev",
+    "dev": "nuxt dev -o",
+    "watch": "pnpm dev",
     "build": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "deploy": "rclone sync ./.output/public r2:home --checksum --transfers 32 --fast-list --progress",
     "deploy:dry": "rclone sync ./.output/public r2:home --checksum --transfers 32 --fast-list --dry-run --progress",
     "lint": "eslint ."
-  },
-  "prettier": {
-    "trailingComma": "none",
-    "tabWidth": 2,
-    "semi": false,
-    "singleQuote": true,
-    "printWidth": 120
   },
   "dependencies": {
     "@nuxt/eslint": "1.17.0",
@@ -31,5 +25,12 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.0",
     "tailwindcss": "^4.1.0"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120
   }
 }

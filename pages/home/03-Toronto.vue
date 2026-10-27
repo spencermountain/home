@@ -14,8 +14,8 @@ import Stage from './lib/Stage.vue'
           </div>
         </div>
         <div class="relative grow text-left">
-          <img src="/img/full/cn-tower.jpg" class="w-68 rounded-sm" />
-          <img src="/img/more/n-america-winter.jpg" class="absolute bottom-0 left-[200px] w-30 rounded-sm" />
+          <Img src="/full/cn-tower.jpg" class="w-68 rounded-sm" />
+          <Img src="/more/n-america-winter.jpg" class="absolute bottom-0 left-[200px] w-30" />
         </div>
       </div>
     </Stage>
@@ -24,10 +24,10 @@ import Stage from './lib/Stage.vue'
       <div class="row flex-nowrap">
         <div class="grow" />
         <div class="row-middle grow flex-nowrap text-left">
-          <div><img src="/img/full/desk.jpg" class="w-102 rounded-sm" /></div>
+          <div><Img src="/full/desk.jpg" class="w-102 rounded-sm" /></div>
           <div class="col-bottom ml-9 items-start self-stretch">
             <div>i live in a modest apartment.</div>
-            <img src="/img/full/github.jpg" class="w-68 rounded-sm shadow-card" />
+            <Img src="/full/github.jpg" class="w-68 rounded-sm" />
           </div>
         </div>
       </div>

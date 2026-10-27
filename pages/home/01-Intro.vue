@@ -28,7 +28,7 @@ import Stage from './lib/Stage.vue'
     </div>
     <!-- picture -->
     <Stage class="my-20">
-      <img class="ml-auto w-68 rounded-sm shadow-card" src="/img/full/shelf.jpg" />
+      <Img class="ml-auto w-68" shadow="none" src="/full/shelf.jpg" />
     </Stage>
   </section>
 </template>

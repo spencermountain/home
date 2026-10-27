@@ -1,4 +1,5 @@
 <script setup>
+import Y2023 from './years/2023.vue'
 import Y2022 from './years/2022.vue'
 import Y2021 from './years/2021.vue'
 import Y2020 from './years/2020.vue'
@@ -26,6 +27,7 @@ useHead({ title: '•' })
       <NuxtLink to="/" class="border-b border-transparent">〱&nbsp;</NuxtLink>
       <div>spencer kelly</div>
     </div>
+    <Y2023 />
     <Y2022 />
     <Y2021 />
     <Y2020 />
