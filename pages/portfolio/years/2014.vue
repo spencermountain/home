@@ -8,10 +8,10 @@ import Year from '../lib/Year.vue'
     <Year id="2014">
       <div>went to grad school for a short time.</div>
       <div class="row">
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2014/gradschool.jpg" width="150px" />
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <div class="mt-8">
             <Img src="/2014/digraph-genealogy.jpg" width="150px" />
           </div>
@@ -27,7 +27,7 @@ import Year from '../lib/Year.vue'
         <div class="w-[230px]">
           <Img src="/2014/earthbarely1.jpg" width="250px" />
         </div>
-        <div class="ml-4 w-1/2">
+        <div class="w-full md:ml-4 md:w-1/2">
           <Img src="/2014/earthbarely2.jpg" width="250px" />
           <div class="text-[0.9rem] text-grey italic">CUSEC14 hackathon finalist</div>
           <Img src="/2014/floor-walk.jpg" width="250px" href="https://vimeo.com/103858377" />

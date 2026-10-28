@@ -7,10 +7,10 @@ import Year from '../lib/Year.vue'
   <Main class="mt-20">
     <Year id="2013">
       <div class="row">
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2013/london.jpg" width="350px" href="https://state.com/" />
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2013/2013.jpg" width="150px" />
           <Img src="/2013/Tree.png" width="150px" />
         </div>

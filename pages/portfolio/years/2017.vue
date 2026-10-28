@@ -15,7 +15,7 @@ import Hr from '../lib/Hr.vue'
         href="https://github.com/spencermountain/compromise/wiki/v12-Release-Notes"
       />
       <div class="row mt-12">
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2017/who-ordinal.png" width="350px" />
           <div class="mt-8">
             <Img src="/2017/2017.jpg" width="175px" />
@@ -29,7 +29,7 @@ import Hr from '../lib/Hr.vue'
             />
           </div>
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img
             src="/2017/wtf-wikipedia.png"
             width="225px"

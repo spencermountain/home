@@ -20,7 +20,7 @@ import Year from '../lib/Year.vue'
           <div class="text-[0.9rem] italic">
             it was <a href="https://github.com/spencermountain/compromise/compare/14.0.0...master">hard</a>
           </div>
-          <div class="w-1/2" />
+          <div class="w-full md:w-1/2" />
         </div>
       </div>
       <div class="row mr-8 max-w-[80%] pr-[6em]">
@@ -47,7 +47,7 @@ import Year from '../lib/Year.vue'
         guest post on <a href="https://toronto.cityhallwatcher.com/p/chw196">Graphic Matt's newsletter</a>
         <div class="my-1 ml-8 text-[0.9rem]">about the housing crisis in Toronto</div>
       </div>
-      <div class="row flex-nowrap justify-start">
+      <div class="row justify-start">
         <Img src="/2022/sky.jpg" width="300px" />
         <div class="flex flex-col items-center justify-around self-stretch p-4">
           <Img src="/2022/model.jpg" width="250px" />
@@ -62,6 +62,7 @@ import Year from '../lib/Year.vue'
           <div>
             <a href="https://github.com/spencermountain/it-compromise">italian</a>
             <div class="my-1 ml-8">in production →</div>
+            <div class="my-1 ml-8">at fluent →</div>
           </div>
         </div>
         <Img src="/2022/italian.jpg" width="340px" />

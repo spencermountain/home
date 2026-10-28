@@ -1,26 +1,39 @@
 <script setup>
 import Main from '../lib/Main.vue'
 import Year from '../lib/Year.vue'
+
+provide('imageLoading', 'eager')
 </script>
 <template>
   <Main class="mt-12">
     <Year id="2024">
       <div class="row-middle mt-8">
-        <Img src="/2024/breakfast.jpg" width="350px" />
-        <Img src="/2024/covid-crop.jpg" width="400px" />
+        <Img src="/2024/breakfast.jpg" width="320px" />
+        <Img src="/2024/covid-crop.jpg" width="375px" />
       </div>
-      <div class="col mt-18 w-full">
-        <div class="text-sm">got a government job.</div>
+      <div class="col mt-8 w-full">
         <div class="row-right just-start!">
-          <Img src="/2024/gov-shirt.jpg" width="320px" class="just-start!" />
+          <div class="text-sm">
+            got a government job.
+            <div class="col">
+              <Img src="/2024/gov-shirt.jpg" width="320px" class="just-start!" caption="at the City of Toronto." />
+            </div>
+          </div>
           <Img src="/2024/gov-graph.jpg" width="200px" />
-          <Img src="/2024/gov-people.jpg" width="210px" />
+          <Img src="/2024/gov-people.jpg" width="200px" />
         </div>
         <div class="row-right">
-          <Img src="/2024/arrows.jpg" width="215px" />
-          <Img src="/2024/gov-it.jpg" width="200px" />
+          <Img src="/2024/arrows.jpg" width="175px" />
+          <Img src="/2024/gov-it.jpg" width="160px" />
         </div>
         <div class="text-sm text-left w-full mt-12">mandate to update Toronto's traffic-analysis software</div>
+        <div class="row-right">
+          <Img src="/2024/toronto-ttc.jpg" width="400px" />
+          <div class="row-middle">
+            <Img src="/2024/toronto-flood.jpg" width="400px" />
+            <Img src="/2024/toronto-traffic.jpg" width="400px" />
+          </div>
+        </div>
         <div class="row-left w-full">
           <div class="col w-[400px]">
             <Img src="/2024/zoom.jpg" width="500px" />

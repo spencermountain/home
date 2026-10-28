@@ -7,10 +7,10 @@ import Year from '../lib/Year.vue'
   <Main class="mt-16">
     <Year id="2019">
       <div class="row">
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2019/v12.png" width="380px" href="https://observablehq.com/@spencermountain/compromise-values" />
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2019/2019.jpg" width="150px" />
           <Img src="/2019/dumps.png" width="150px" href="http://thensome.how/2019/ontario-landfills/" />
           <Img

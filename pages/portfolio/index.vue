@@ -18,11 +18,13 @@ import Citations from './Citations.vue'
 import Graph from './graph/index.vue'
 
 useHead({ title: '•' })
+// Defer images in older years until they approach the viewport.
+provide('imageLoading', 'lazy')
 </script>
 
 <template>
   <!-- the portfolio keeps its own look: serif, 1.2rem text with a fixed 24px line-height -->
-  <div class="portfolio min-h-screen overflow-x-hidden bg-white pt-5 font-serif text-[1.2rem] leading-6 text-[#4d4d4d]">
+  <div class="portfolio min-h-screen bg-white pt-5 font-serif text-[1.2rem] leading-6 text-[#4d4d4d]">
     <!-- tiny header: back to the home page -->
     <div class="row justify-start text-[0.8rem] italic group">
       <NuxtLink to="/" class="border-b border-transparent ml-2 row text-grey-500! hover:text-grey-600"
@@ -30,23 +32,25 @@ useHead({ title: '•' })
         <span class="text-grey-500!">spencer kelly</span>
       </NuxtLink>
     </div>
-    <Y2024 />
-    <Y2023 />
-    <Y2022 />
-    <Y2021 />
-    <Y2020 />
-    <Y2019 />
-    <Y2018 />
-    <Y2017 />
-    <Y2016 />
-    <Y2015 />
-    <Y2014 />
-    <Y2013 />
-    <Y2012 />
-    <Y2011 />
-    <Y2010 />
-    <Citations />
-    <div class="h-16" />
-    <Graph />
+    <div class="mx-4">
+      <Y2024 />
+      <Y2023 />
+      <Y2022 />
+      <Y2021 />
+      <Y2020 />
+      <Y2019 />
+      <Y2018 />
+      <Y2017 />
+      <Y2016 />
+      <Y2015 />
+      <Y2014 />
+      <Y2013 />
+      <Y2012 />
+      <Y2011 />
+      <Y2010 />
+      <Citations />
+      <div class="h-16" />
+      <Graph />
+    </div>
   </div>
 </template>

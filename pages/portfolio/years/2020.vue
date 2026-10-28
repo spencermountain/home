@@ -1,15 +1,13 @@
 <script setup>
 import Main from '../lib/Main.vue'
 import Year from '../lib/Year.vue'
-
-import Mov from '../lib/Mov.vue'
 </script>
 
 <template>
   <Main class="mt-12">
     <Year id="2020">
       <div class="row">
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2020/sankey.jpg" width="150px" href="https://github.com/spencermountain/somehow-sankey" />
           <Img src="/2020/rockets.png" width="150px" href="https://github.com/spencermountain/somehow-timeline" />
           <div class="mt-16">
@@ -28,7 +26,7 @@ import Mov from '../lib/Mov.vue'
             </div>
           </div>
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2020/skydome.jpg" width="200px" href="http://thensome.how/2020/covid-as-skydome/" />
           <Img src="/2020/2020.jpg" width="250px" />
         </div>
@@ -52,7 +50,7 @@ import Mov from '../lib/Mov.vue'
         </div>
       </div>
       <div class="mt-16">
-        <Mov
+        <Video
           src="/2020/fast-mode.mp4"
           width="450px"
           href="https://github.com/spencermountain/compromise/tree/master/plugins/scan"
@@ -60,18 +58,18 @@ import Mov from '../lib/Mov.vue'
         />
       </div>
       <div class="mt-16">
-        <Mov
+        <Video
           src="/2020/hand-computer.mp4"
           width="250px"
           href="http://blog.spencermounta.in/2020/computer-is-furniture/index.html"
         />
       </div>
       <div class="row">
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2020/wayne.jpg" width="150px" />
           <Img src="/2019/blender.jpg" width="175px" />
         </div>
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2020/sport-season.png" width="250px" href="http://thensome.how/2018/sports-by-city/" />
           <Img
             src="/2020/calendar.png"

@@ -9,7 +9,7 @@ import Video from '../lib/Video.vue'
   <Main class="mt-12">
     <Year id="2021">
       <div class="row">
-        <div class="w-1/2">
+        <div class="w-full md:w-1/2">
           <Img src="/2021/lockdown.jpg" />
           <div>zillion months of lockdown</div>
         </div>
