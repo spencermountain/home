@@ -1,14 +1,28 @@
-<script setup></script>
+<script setup>
+const width = 320
+const height = 64
+const spacing = 32
+const seed = 38
+let state = seed
+
+// Keep the scattered layout identical during server and client rendering.
+const random = () => {
+  state = (Math.imul(state, 1664525) + 1013904223) >>> 0
+  return state / 4294967296
+}
+
+const ferns = Array.from({ length: Math.ceil(width / spacing) + 1 }, (_, index) => {
+  const x = index * spacing + (random() - 0.5) * 20
+  const rotation = (random() - 0.5) * 60
+  const scale = 0.35 + random() * 0.2
+  return `translate(${x} ${height}) rotate(${rotation}) scale(${scale}) translate(-55 -132)`
+})
+</script>
 <template>
   <div class="overflow-hidden rounded  w-80 h-16">
-    <svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+    <svg xmlns="http://www.w3.org/2000/svg" :width="width" :height="height" :viewBox="`0 0 ${width} ${height}`">
       <defs>
-        <pattern id="w38p" width="110" height="140" patternUnits="userSpaceOnUse">
-          <use href="#w38m" x="-110" y="-140" />
-          <use href="#w38m" x="0" y="-140" />
-          <use href="#w38m" x="110" y="-140" />
-          <use href="#w38m" x="-110" y="0" />
-          <use href="#w38m" x="110" y="0" />
+
           <g id="w38m">
             <path
               d="M55,132 C48,92 62,52 54,10"
@@ -70,10 +84,7 @@
             <path d="M0 0 Q4.2 -6.3 0 -14 Q-4.2 -6.3 0 0" transform="translate(100 122) rotate(40)" fill="#7f9c6c" />
             <path d="M0 0 Q3.6 -5.4 0 -12 Q-3.6 -5.4 0 0" transform="translate(8 24) rotate(-60)" fill="#7f9c6c" />
           </g>
-          <use href="#w38m" x="-110" y="140" />
-          <use href="#w38m" x="0" y="140" />
-          <use href="#w38m" x="110" y="140" />
-        </pattern>
+
         <filter id="w38grain">
           <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" />
           <feColorMatrix type="saturate" values="0" />
@@ -84,7 +95,7 @@
         </filter>
       </defs>
        <rect width="480" height="480" fill="#FBFBFB" />
-      <rect width="480" height="480" fill="url(#w38p)" />
+      <use v-for="(transform, index) in ferns" :key="index" href="#w38m" :transform="transform" />
       <!-- <rect width="480" height="480" filter="url(#w38fiber)" opacity="0.045" />
       <rect width="480" height="480" filter="url(#w38grain)" opacity="0.06" /> -->
     </svg>

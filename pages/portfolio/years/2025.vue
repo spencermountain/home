@@ -17,7 +17,7 @@ provide('imageLoading', 'eager')
           <Img src="/2025/studies-close.jpg" width="380px" />
           <Video
             src="/2025/brush-tool.small.mp4"
-            caption="<i>city traffic-analysis tool starting to work…</i>"
+            caption="<i>traffic analysis tool coming together…</i>"
             width="260px"
             :autoplay="true"
             :loop="true"
@@ -34,10 +34,10 @@ provide('imageLoading', 'eager')
       <div class="row-left mt-20">
         <div class="col">
           <Img src="/2025/go-train.jpg" width="320px" />
-          <Img src="/2025/twosuit.jpg" width="220px" caption="" />
+          <Img src="/2025/twosuit.jpg" width="220px" caption="<i>work discussed at council —</i>" />
         </div>
         <div class="col">
-          <Img src="/2025/award.jpg" width="320px" caption="open-data award, for release<br/>of 20-years of traffic-studies" />
+          <Img src="/2025/award.jpg" width="320px" caption="open-data award<br/> for release of 20-years of traffic-studies" />
         </div>
       </div>
       <div class="row-left mt-6 items-start!">

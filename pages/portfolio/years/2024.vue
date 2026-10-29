@@ -16,7 +16,7 @@ provide('imageLoading', 'eager')
           <div class="text-sm">
             got a government job.
             <div class="col">
-              <Img src="/2024/gov-shirt.jpg" width="320px" class="just-start!" caption="at the City of Toronto." />
+              <Img src="/2024/gov-shirt.jpg" width="320px" class="just-start!" caption="at the City of Toronto Transportation Department" />
             </div>
           </div>
           <Img src="/2024/gov-graph.jpg" width="200px" />
