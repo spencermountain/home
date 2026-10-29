@@ -23,7 +23,8 @@ if (props.base && props.src) {
       :is="props.href ? 'a' : 'div'"
       :href="props.href"
       :target="props.href && '_blank'"
-      class="min-w-0 max-w-full p-3 pb-0 sm:p-5 sm:pb-0"
+      class="min-w-0 max-w-full p-3 pb-0 sm:p-5 sm:pb-0 text-decoration-none! border-bottom-none! underline-none!"
+      :class="props.href ? 'cursor-pointer' : ''"
     >
       <img
         :src="src"

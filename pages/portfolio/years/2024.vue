@@ -1,11 +1,10 @@
 <script setup>
 import Main from '../lib/Main.vue'
 import Year from '../lib/Year.vue'
-
-provide('imageLoading', 'eager')
+import Hr from '../lib/Hr.vue'
 </script>
 <template>
-  <Main class="mt-12">
+  <Main class="mt-8">
     <Year id="2024">
       <div class="row-middle mt-8">
         <Img src="/2024/breakfast.jpg" width="320px" />
@@ -54,6 +53,7 @@ provide('imageLoading', 'eager')
         </div>
       </div>
       <div class="col mt-8"></div>
+      <Hr />
     </Year>
   </Main>
 </template>

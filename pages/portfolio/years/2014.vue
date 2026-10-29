@@ -4,24 +4,19 @@ import Year from '../lib/Year.vue'
 </script>
 
 <template>
-  <Main class="mt-20">
+  <Main class="mt-2">
     <Year id="2014">
-      <div>went to grad school for a short time.</div>
-      <div class="row">
-        <div class="w-full md:w-1/2">
+      <div class="row-left">
+            <Img src="/2014/digraph-genealogy.jpg" width="250px" caption="went to grad school for a short time." />
           <Img src="/2014/gradschool.jpg" width="150px" />
-        </div>
-        <div class="w-full md:w-1/2">
-          <div class="mt-8">
-            <Img src="/2014/digraph-genealogy.jpg" width="150px" />
-          </div>
-        </div>
       </div>
-      <div class="mt-16 mb-5 pl-10 italic">
-        granted this weird software patent
+      <div class="mt-16 mb-5 pl-10 italic col">
+        <div class="text-sm">granted this weird software patent</div>
+        <div>
         <a href="https://patents.google.com/patent/US20150089409A1/en">
           <Img src="/2014/state-patent.jpg" width="450px" />
         </a>
+        </div>
       </div>
       <div class="row mt-12">
         <div class="w-[230px]">

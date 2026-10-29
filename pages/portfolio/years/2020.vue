@@ -4,7 +4,7 @@ import Year from '../lib/Year.vue'
 </script>
 
 <template>
-  <Main class="mt-12">
+  <Main class="mt-8">
     <Year id="2020">
       <div class="row">
         <div class="w-full md:w-1/2">

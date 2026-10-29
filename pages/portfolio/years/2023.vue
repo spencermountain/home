@@ -3,11 +3,16 @@ import Main from '../lib/Main.vue'
 import Year from '../lib/Year.vue'
 </script>
 <template>
-  <Main class="mt-12">
+  <Main class="mt-8">
     <Year id="2023">
       <div class="col ml-8">
-        <div class="row-middle">
+        <div class="row-spread">
           <div class="flex-grow max-w-52">
+          <Img
+            src="/2023/fluent-2023.jpg"
+            width="400px"
+            caption="Fluent.co went bankrupt<br/> <i>even though it was really fun and good</i>"
+          />
             <!-- <Img src="/2023/2023-04-11.jpg" width="250px" /> -->
           </div>
           <div class="col-right w-80 text-right items-end!">
@@ -17,11 +22,6 @@ import Year from '../lib/Year.vue'
         </div>
 
         <div class="row-left mt-8">
-          <Img
-            src="/2023/fluent-2023.jpg"
-            width="400px"
-            caption="Fluent.co went bankrupt<br/> <i>even though it was really fun and good</i>"
-          />
           <div class="col justify-end! w-[600px]">
             <Img src="/2023/job-hunt.jpg" width="450px" class="self-end!" />
             <div class="row-right">
@@ -32,7 +32,7 @@ import Year from '../lib/Year.vue'
         </div>
 
         <div class="row-middle mt-30">
-          <Img src="/2023/deeplearning-crop.jpg" width="225px" />
+          <Img src="/2023/deeplearning-crop.jpeg" width="225px" />
           <Img src="/2023/deeplearning-2.jpg" width="350px" caption="<i>deep-learning.jpg</i>" />
         </div>
 
@@ -47,7 +47,7 @@ import Year from '../lib/Year.vue'
           </div>
         </div>
         <div class="col-right w-9/12">
-          <Img src="/2023/2023-summer.jpg" width="380px" />
+          <Img src="/2023/2023-summer.jpg" width="300px" />
         </div>
       </div>
     </Year>

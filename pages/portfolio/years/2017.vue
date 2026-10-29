@@ -39,11 +39,13 @@ import Hr from '../lib/Hr.vue'
           <Img src="/2017/japan.jpg" width="150px" />
         </div>
       </div>
-      <div class="mt-20 ml-12">
-        compromise in use
+      <div class="mt-20 ml-12 col-left">
+        <div>compromise in use
         <a href="https://devblogs.microsoft.com/cse/2017/06/06/geocoding-social-conversations-nlp-javascript/"
           >at the United Nations</a
-        >
+        >:
+        </div>
+        <Img src="/2017/united-nations.jpg" />
       </div>
       <Hr />
     </Year>

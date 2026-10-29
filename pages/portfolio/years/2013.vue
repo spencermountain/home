@@ -4,30 +4,34 @@ import Year from '../lib/Year.vue'
 </script>
 
 <template>
-  <Main class="mt-20">
+  <Main class="mt-12">
     <Year id="2013">
       <div class="row">
-        <div class="w-full md:w-1/2">
-          <Img src="/2013/london.jpg" width="350px" href="https://state.com/" />
-        </div>
-        <div class="w-full md:w-1/2">
+        <div class="">
           <Img src="/2013/2013.jpg" width="150px" />
           <Img src="/2013/Tree.png" width="150px" />
         </div>
+        <div class="w-full md:w-1/2">
+          <Img src="/2013/london.jpg" width="350px" href="https://state.com/" />
+        </div>
       </div>
-      <div class="mt-20 mb-1 ml-8">
-        state.com hires 45 people
+      <div class="mt-20 mb-1 ml-8 col-left">
+        <div>state.com hires 45 people</div>
         <div class="my-1 ml-8 text-[0.9rem] italic">all will be laid-off the next year.</div>
         <Img src="/2013/alex-techcrunch.jpg" width="350px" href="https://www.youtube.com/watch?v=PAymdN2T5oI" />
       </div>
-      <div class="mt-20 ml-32 max-w-[35rem]">webby nomination - <i>best community, 2013</i></div>
-      <div class="m-12">
-        <Img src="/2013/deceased-persons.png" width="250px" />
-      </div>
-      <Img src="/2013/mturk.jpg" width="320px" />
-      <div class="mt-12 mb-1 ml-16 text-[0.9rem] italic">
-        <div>Freebase shuts-down.</div>
-        <div>React and D3 are both created.</div>
+      <div class="mt-20 ml-32 max-w-[35rem] col-left">
+        <div>
+          webby nomination - <i>best community, 2013</i>
+        </div>
+        <div class="row">
+          <Img src="/2013/deceased-persons.png" width="350px" />
+          <Img src="/2013/mturk.jpg" width="350px" />
+        </div>
+        <div class="mt-12 mb-1 ml-16 text-[0.9rem] italic">
+          <div>Freebase shuts-down.</div>
+          <div>React and D3 are both created.</div>
+        </div>
       </div>
     </Year>
   </Main>
