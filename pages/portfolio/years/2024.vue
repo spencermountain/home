@@ -37,7 +37,7 @@ provide('imageLoading', 'eager')
         <div class="row-left w-full">
           <div class="col w-[400px]">
             <Img src="/2024/zoom.jpg" width="500px" />
-            <div class="text-sm">started building web app.</div>
+            <!-- <div class="text-sm">started building web app.</div> -->
           </div>
           <div class="col w-[400px]">
             <Img src="/2024/plan.jpg" width="350px" class="ml-4" />

@@ -6,7 +6,7 @@ import Year from '../lib/Year.vue'
 <template>
   <Main class="mt-12">
     <Year id="2022">
-      <div class="row ml-8 justify-start">
+      <div class="row-spread ml-8 justify-start">
         <div>
           <Img
             src="/2022/v14.jpg"
@@ -22,15 +22,17 @@ import Year from '../lib/Year.vue'
           </div>
           <div class="w-full md:w-1/2" />
         </div>
-      </div>
-      <div class="row mr-8 max-w-[80%] pr-[6em]">
-        <Img src="/2022/mayor.jpg" width="150px" href="https://vimeo.com/29689919" />
-      </div>
-      <div class="row">
-        <div>
-          <Img src="/2022/concert.jpg" caption="first concert back" />
-          <Img src="/2022/kaaate.jpg" width="110px" />
+      <div class="col">
+        <div class="row mr-8 max-w-[80%] pr-[6em]">
+          <Img src="/2022/mayor.jpg" width="150px" href="https://vimeo.com/29689919" />
         </div>
+        <div class="row">
+          <div>
+            <Img src="/2022/concert.jpg" caption="first concert back" />
+            <Img src="/2022/kaaate.jpg" width="110px" />
+          </div>
+        </div>
+      </div>
       </div>
       <div class="row justify-start">
         <Img src="/2022/trie.jpg" width="200px" />

@@ -62,34 +62,49 @@
   }
 }
 
-/* flexbox helpers, with the same semantics as spencer-color's row/col classes */
-@utility row {
-  @apply flex flex-row flex-wrap items-center justify-around self-stretch text-center;
+.row {
+  @apply flex flex-row flex-nowrap justify-around items-center;
 }
-@utility row-left {
-  @apply flex flex-row flex-wrap items-center justify-start self-stretch text-center;
+
+.row-middle {
+  @apply flex flex-row flex-nowrap justify-center items-center;
 }
-@utility row-right {
-  @apply flex flex-row flex-wrap items-center justify-end self-stretch text-center;
+.row-center {
+  @apply flex flex-row flex-nowrap justify-center items-center;
 }
-@utility row-middle {
-  @apply flex flex-row flex-wrap items-center justify-center self-stretch text-center;
+
+.row-spread {
+  @apply flex flex-row flex-nowrap justify-between items-center;
 }
-@utility row-spread {
-  @apply flex flex-row flex-wrap items-center justify-between self-stretch text-center;
+
+.row-left {
+  @apply flex flex-row flex-nowrap justify-start items-center;
 }
-@utility col {
-  @apply flex w-full flex-col flex-wrap items-center justify-around text-left;
+
+.row-right {
+  @apply flex flex-row flex-nowrap justify-end items-center;
 }
-@utility col-left {
-  @apply flex w-full flex-col flex-wrap items-center justify-start text-left;
+
+.col {
+  @apply flex flex-col flex-nowrap justify-start items-center;
 }
-@utility col-right {
-  @apply flex w-full flex-col flex-wrap items-center justify-end text-left;
+
+.col-left {
+  @apply flex flex-col flex-nowrap justify-start items-start;
 }
-@utility col-bottom {
-  @apply flex w-full flex-col flex-wrap items-center justify-end text-left;
+
+.col-right {
+  @apply flex flex-col flex-nowrap justify-start items-end;
 }
+
+.col-center {
+  @apply flex flex-col flex-nowrap justify-center items-center;
+}
+
+.col-spread {
+  @apply flex flex-col flex-nowrap justify-between items-center;
+}
+
 /* link with a 2px coloured rule under it that thickens on hover. pair with a border-* colour */
 @utility clean {
   @apply border-b-2 no-underline hover:border-b-[3px];
