@@ -8,7 +8,7 @@ const props = defineProps({
   link: String,
   width: { type: String, default: '100%' },
   shadow: { type: String, default: 'md' },
-  autoplay: { type: Boolean, default: false },
+  autoplay: { type: Boolean, default: true },
   loop: { type: Boolean, default: true }
 })
 let src = props.src

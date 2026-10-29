@@ -1,0 +1,139 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Spencer Kelly",
+    "label": "Software developer, NLP",
+    "email": "spencermountain@gmail.com",
+    "url": "https://spencermounta.in/",
+    "location": {
+      "city": "Toronto",
+      "region": "Ontario",
+      "countryCode": "CA"
+    },
+    "summary": "Reluctant author of compromise, popular open-source NLP library",
+    "profiles": [
+      {
+        "network": "Portfolio",
+        "username": "spencermounta.in",
+        "url": "https://spencermounta.in/"
+      },
+      {
+        "network": "GitHub",
+        "username": "spencermountain",
+        "url": "https://github.com/spencermountain/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "spencermountain",
+        "url": "https://www.linkedin.com/in/spencermountain/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "City of Toronto",
+      "url": "https://www.toronto.ca/services-payments/streets-parking-transportation/road-safety/big-data-innovation-team/",
+      "startDate": "2024-03",
+      "endDate": "2026-09",
+      "description": "Transportation",
+      "summary": "Traffic volumes and collision pattern analysis"
+    },
+    {
+      "name": "Fluent",
+      "url": "https://www.fluent.co/",
+      "startDate": "2020-05",
+      "endDate": "2023-10",
+      "description": "Language-learning",
+      "summary": "Inline translation of webpages"
+    },
+    {
+      "name": "MBI Health",
+      "url": "https://mbihealthcaretechnologies.com/",
+      "startDate": "2019-07",
+      "endDate": "2020-05",
+      "description": "NHS",
+      "summary": "Medical transcript/diagnosis analysis"
+    },
+    {
+      "name": "Small Wins",
+      "url": "https://begin.com/",
+      "startDate": "2015-12",
+      "endDate": "2018-04",
+      "description": "Startup",
+      "summary": "Dialogue interface"
+    },
+    {
+      "name": "Govinvest",
+      "url": "https://govinvest.com/",
+      "startDate": "2015-05",
+      "endDate": "2017-12",
+      "description": "Pension funds",
+      "summary": "Interpretation of pension liability models"
+    },
+    {
+      "name": "State.com",
+      "url": "https://en.wikipedia.org/wiki/State_(website)",
+      "startDate": "2010-11",
+      "endDate": "2014-12",
+      "description": "Social network",
+      "summary": "Freebase + Wordnet integration"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open-source maintainer, >15k GitHub stars",
+      "url": "https://github.com/spencermountain/"
+    },
+    {
+      "name": "\"Fishing for Magikarp\" role, wtf_wikipedia",
+      "url": "https://github.com/spencermountain/wtf_wikipedia/pull/573",
+      "startDate": "2024"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Geocoding social conversations with NLP and JavaScript",
+      "publisher": "Microsoft",
+      "url": "https://devblogs.microsoft.com/cse/2017/06/06/geocoding-social-conversations-nlp-javascript/",
+      "releaseDate": "2017"
+    },
+    {
+      "name": "Software patent US20150089409A1 - word-sense classification technique",
+      "publisher": "USPTO",
+      "url": "https://patents.google.com/patent/US20150089409A1/en",
+      "releaseDate": "2013"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Webby Award nomination (State.com)",
+      "awarder": "The Webby Awards",
+      "url": "https://winners.webbyawards.com/2015/websites-and-mobile-sites/general-websites-and-mobile-sites/community/159240/state",
+      "date": "2015"
+    },
+    {
+      "title": "EMNLP speaker",
+      "awarder": "EMNLP",
+      "url": "https://vimeo.com/496095722",
+      "date": "2020"
+    },
+    {
+      "title": "UnlockLondon hackathon winner",
+      "awarder": "UnlockLondon",
+      "date": "2012"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Queen’s University",
+      "area": "Computer Science",
+      "studyType": "Graduate studies (1 year)",
+      "endDate": "2013"
+    }
+  ],
+  "meta": {
+    "canonical": "https://spencermounta.in/resume/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-10-29T12:50:02.979Z"
+  }
+}

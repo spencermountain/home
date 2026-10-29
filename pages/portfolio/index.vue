@@ -14,6 +14,7 @@ import Y2021 from './years/2021.vue'
 import Y2022 from './years/2022.vue'
 import Y2023 from './years/2023.vue'
 import Y2024 from './years/2024.vue'
+import Y2025 from './years/2025.vue'
 import Citations from './Citations.vue'
 import Graph from './graph/index.vue'
 
@@ -33,6 +34,7 @@ provide('imageLoading', 'lazy')
       </NuxtLink>
     </div>
     <div class="mx-4">
+      <Y2025 />
       <Y2024 />
       <Y2023 />
       <Y2022 />
