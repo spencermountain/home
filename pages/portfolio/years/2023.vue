@@ -8,11 +8,11 @@ import Year from '../lib/Year.vue'
       <div class="col ml-8">
         <div class="row-spread">
           <div class="flex-grow max-w-52">
-          <Img
-            src="/2023/fluent-2023.jpg"
-            width="400px"
-            caption="Fluent.co went bankrupt<br/> <i>even though it was really fun and good</i>"
-          />
+            <Img
+              src="/2023/fluent-2023.jpg"
+              width="400px"
+              caption="Fluent.co went bankrupt<br/> <i>even though it was really fun and good</i>"
+            />
             <!-- <Img src="/2023/2023-04-11.jpg" width="250px" /> -->
           </div>
           <div class="col-right w-80 text-right items-end!">

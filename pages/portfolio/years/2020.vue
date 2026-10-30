@@ -31,7 +31,13 @@ import Year from '../lib/Year.vue'
           <Img src="/2020/2020.jpg" width="250px" />
         </div>
       </div>
-      <div class="m-16">
+      <div class="m-16 row-spread">
+        <div class="my-1 ml-8 text-[0.9rem] italic">
+          Guest interview on podcast -
+          <a href="https://www.stitcher.com/show/the-amateur/episode/how-to-learn-programming-68480006"
+            >How to learn programming</a
+          >
+        </div>
         <Img
           src="/2020/fr-compromise.png"
           width="450px"
@@ -40,14 +46,7 @@ import Year from '../lib/Year.vue'
         />
       </div>
       <div class="row">
-        <div>
-          <div class="my-1 ml-8 text-[0.9rem] italic">
-            Guest interview on podcast -
-            <a href="https://www.stitcher.com/show/the-amateur/episode/how-to-learn-programming-68480006"
-              >How to learn programming</a
-            >
-          </div>
-        </div>
+        <div></div>
       </div>
       <div class="mt-16">
         <Video
@@ -57,7 +56,14 @@ import Year from '../lib/Year.vue'
           caption='compromise became fast<br /><i>contract w/ <a href="https://moov.co/">Moov.co</a></i>'
         />
       </div>
-      <div class="mt-16">
+      <div class="mt-16 row-right">
+        <Img
+          src="/2020/gun-and-rose.png"
+          width="350px"
+          class="mr-8"
+          href="https://observablehq.com/@spencermountain/nouns"
+        />
+
         <Video
           src="/2020/hand-computer.mp4"
           width="250px"
@@ -70,16 +76,13 @@ import Year from '../lib/Year.vue'
           <Img src="/2019/blender.jpg" width="175px" />
         </div>
         <div class="w-full md:w-1/2">
-          <Img src="/2020/sport-season.png" width="250px" href="http://thensome.how/2018/sports-by-city/" />
+          <Img src="/2020/sport-season.png" width="250px" class="m-8" href="http://thensome.how/2018/sports-by-city/" />
           <Img
             src="/2020/calendar.png"
             width="200px"
             href="http://blog.spencermounta.in/2019/millenial-calendar/index.html"
           />
         </div>
-      </div>
-      <div class="mt-20">
-        <Img src="/2020/gun-and-rose.png" width="350px" href="https://observablehq.com/@spencermountain/nouns" />
       </div>
     </Year>
   </Main>

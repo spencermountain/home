@@ -3,6 +3,7 @@
 const props = defineProps({
   src: String,
   base: { type: String, default: 'https://snip.spencermountain.dev/2026/10/portfolio' },
+  above: { type: String, default: '' },
   caption: { type: String, default: '' },
   href: String,
   link: String,
@@ -19,11 +20,12 @@ if (props.base && props.src) {
 
 <template>
   <div class="flex min-w-0 max-w-full flex-col items-end text-right">
+    <div v-if="above" class="w-full min-w-0 px-3 text-[0.7rem] wrap-anywhere sm:px-5 sm:text-[0.9rem]" v-html="above" />
     <component
       :is="props.href ? 'a' : 'div'"
       :href="props.href"
       :target="props.href && '_blank'"
-      class="min-w-0 max-w-full p-3 pb-0 sm:p-5 sm:pb-0 text-decoration-none! border-bottom-none! underline-none!"
+      class="min-w-0 max-w-full p-2 pt-1! pb-0 sm:p-2 sm:pb-0 text-decoration-none! border-bottom-none! underline-none!"
       :class="props.href ? 'cursor-pointer' : ''"
     >
       <img
@@ -36,6 +38,10 @@ if (props.base && props.src) {
         :class="shadow === 'none' ? '' : 'shadow-card'"
       />
     </component>
-    <div v-if="caption" class="w-full min-w-0 px-3 text-[0.9rem] [overflow-wrap:anywhere] sm:px-5" v-html="caption" />
+    <div
+      v-if="caption"
+      class="w-full min-w-0 pt-1 text-softblack px-3 text-[0.7rem] wrap-anywhere sm:px-5 sm:text-[0.9rem]"
+      v-html="caption"
+    />
   </div>
 </template>

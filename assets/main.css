@@ -105,6 +105,10 @@
   @apply flex flex-col flex-nowrap justify-between items-center;
 }
 
+.hide-small {
+  @apply hidden sm:block;
+}
+
 /* link with a 2px coloured rule under it that thickens on hover. pair with a border-* colour */
 @utility clean {
   @apply border-b-2 no-underline hover:border-b-[3px];

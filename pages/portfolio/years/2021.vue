@@ -10,7 +10,7 @@ import Video from '../lib/Video.vue'
     <Year id="2021">
       <div class="row">
         <div class="w-full md:w-1/2">
-          <Img src="/2021/lockdown.jpg" width="400px" caption="zillion months of lockdown"/>
+          <Img src="/2021/lockdown.jpg" width="300px" caption="zillion months of lockdown" />
         </div>
       </div>
       <div class="row max-w-200 w-120">
@@ -27,10 +27,9 @@ import Video from '../lib/Video.vue'
         />
         <Img
           src="/2021/newton-crop.jpg"
-          width="500px"
+          width="400px"
           caption="made the cmd+K menu for <a href='https://newtonhq.com/'>Newton email</a>"
         />
-
       </div>
     </Year>
   </Main>
